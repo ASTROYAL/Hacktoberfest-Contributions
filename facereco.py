@@ -20,7 +20,7 @@ def TakeImages():
             break
         elif key == ord('c'):  #press c to click 
             sampleNum += 1
-            img_name = f"camimages/{sampleNum}.jpg"#folder path to sav image it should to be in same as your file in 
+            img_name = f"camimages/{sampleNum}.jpg"#folder path to save image it should to be in same as your file in 
             cv2.imwrite(img_name, img)
             print(f"Image {sampleNum} captured and saved as {img_name}.")
 
